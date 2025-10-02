@@ -228,4 +228,21 @@
   <br> 
 
 
+* #### Examples:
+
+
+       https://localhost:44346/graphql/?query=query%20%7B%0A%20%20employees%20%7B%0A%20%20%20%20empId%0A%20%20%20%20empName%0A%20%20%20%20deptName%0A%20%20%7D%0A%7D%0A%0A
+
+![employees.png](https://github.com/nijylkanoth/basicGraphQLDemo/blob/master/graphQLApi/Images/employees.png)
+
+
+       https://localhost:44346/graphql/?query=query%20%7B%0A%20%20employee(id%3A2)%20%7B%0A%20%20%20%20empId%0A%20%20%20%20empName%0A%20%20%20%20deptName%0A%20%20%7D%0A%7D%0A
+
+![employee.png](https://github.com/nijylkanoth/basicGraphQLDemo/blob/master/graphQLApi/Images/employee.png)
+
+
+              
+
+  <br> 
+
 
